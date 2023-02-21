@@ -25,17 +25,17 @@ const MenuSection = () => {
         />
         <img
           className="lg:translate-y-3  w-full h-24 md:h-full md:w-full  object-cover overflow-hidden bg-slate-400"
-          src="src/assets/coffeecup1.jpg"
+          src="src/assets/coffeecup2.jpg"
           alt=""
         />
         <img
           className=" lg:-translate-y-3 w-full h-24 md:h-full md:w-full  object-cover overflow-hidden bg-slate-400"
-          src="src/assets/coffeecup2.jpg"
+          src="src/assets/coffeecup3.jpg"
           alt=""
         />
         <img
           className=" lg:translate-y-3 w-full h-24 md:h-full md:w-full  object-cover  overflow-hidden bg-slate-400"
-          src="src/assets/coffeecup2.jpg"
+          src="src/assets/coffeecup4.jpg"
           alt=""
         />
       </div>
