@@ -2,7 +2,7 @@ import React from "react";
 
 const BookTable = () => {
   return (
-    <div className="bg-black font-open-sans grid grid-cols-2 pb-24 items-center">
+    <div className="bg-black font-open-sans grid md:grid-cols-2 pb-24 items-center">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d978.1226882781543!2d-117.2501762872243!3d33.193791093761654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc741dfe4e3823%3A0xedc176948d6f6a93!2s465%20Hacienda%20Dr%2C%20Vista%2C%20CA%2092081!5e0!3m2!1sen!2sus!4v1676949469043!5m2!1sen!2sus"
         className="border-0 w-full h-[450px] invert-[90%] hue-rotate-180"

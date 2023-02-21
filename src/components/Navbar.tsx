@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <nav className="relative">
-      <div className="relative font-open-sans md:bg-transparent bg-zinc-900 flex  text-slate-200 justify-center  py-6 px-10 border-b border-slate-100/25 whitespace-nowrap">
+      <div className="relative font-open-sans md:bg-transparent bg-black flex  text-slate-200 justify-center  py-6 px-10 md:border-b border-slate-100/25 whitespace-nowrap z-20">
         <div className="w-[1100px] items-center justify-between  flex">
           <h1 className="text-center text-3xl leading-6 ">
             Coffee <br></br>
@@ -13,19 +13,29 @@ const Navbar = () => {
           </h1>
           <ul className="  gap-10 hidden md:flex items-center">
             <li>
-              <button className="tracking-widest">HOME</button>
+              <button className="tracking-widest ease-linear duration-300 hover:text-amber-100">
+                HOME
+              </button>
             </li>
             <li>
-              <button className="tracking-widest">MENU</button>
+              <button className="tracking-widest ease-linear duration-300 hover:text-amber-100">
+                MENU
+              </button>
             </li>
             <li>
-              <button className="tracking-widest">ABOUT</button>
+              <button className="tracking-widest ease-linear duration-300 hover:text-amber-100">
+                ABOUT
+              </button>
             </li>
             <li>
-              <button className="tracking-widest">SHOP</button>
+              <button className="tracking-widest ease-linear duration-300 hover:text-amber-100">
+                SHOP
+              </button>
             </li>
             <li>
-              <button className="tracking-widest">CONTACT</button>
+              <button className="tracking-widest ease-linear duration-300 hover:text-amber-100">
+                CONTACT
+              </button>
             </li>
             <li>
               <button className="tracking-widest">
@@ -37,7 +47,7 @@ const Navbar = () => {
               </button>
             </li>
           </ul>
-          <div className="md:hidden flex">
+          <div className="md:hidden flex ">
             <button
               onClick={() => {
                 setToggle((prev) => !prev);
@@ -56,17 +66,43 @@ const Navbar = () => {
       </div>
       <div
         className={`${
-          toggle ? "flex" : "hidden"
-        } absolute bg-zinc-900 text-slate-100  w-full z-[0]`}
+          toggle ? "flex" : "-translate-y-[300px]"
+        } absolute bg-black text-slate-100 ease-out duration-300 w-full z-10 md:hidden`}
       >
-        <ul className="flex flex-col gap-3 m-6">
-          <li>Home</li>
-          <li>Menu</li>
-          <li>About</li>
-          <li>Shop</li>
-          <li>Contact</li>
+        <ul className="flex flex-col gap-6 m-6 mt-0 text-sm ">
           <li>
-            <img src="#" alt="Shopping Cart" />
+            <button className="ease-linear duration-300 tracking-[0.2em] hover:text-amber-200">
+              HOME
+            </button>
+          </li>
+          <li>
+            <button className="ease-linear duration-300 tracking-[0.2em] hover:text-amber-200">
+              MENU
+            </button>
+          </li>
+          <li>
+            <button className="ease-linear duration-300 tracking-[0.2em] hover:text-amber-200">
+              ABOUT
+            </button>
+          </li>
+          <li>
+            <button className="ease-linear duration-300 tracking-[0.2em] hover:text-amber-200">
+              SHOP
+            </button>
+          </li>
+          <li>
+            <button className="ease-linear duration-300 tracking-[0.2em] hover:text-amber-200">
+              CONTACT
+            </button>
+          </li>
+          <li>
+            <button>
+              <img
+                className="w-6 h-6"
+                src="src/assets/shopping-cart.png"
+                alt="Shopping Cart"
+              />
+            </button>
           </li>
         </ul>
       </div>
