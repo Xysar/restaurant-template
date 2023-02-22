@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="col-span-2">
           <h3 className="mb-10 text-lg tracking-widest ">ABOUT US</h3>
           <p className="text-lg text-zinc-400">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
+            Curabitur non aliquam risus. Etiam ut ligula placerat orci imperdiet
+            mollis. Donec et leo neque.
           </p>
           <div className="mt-8 flex gap-8">
             <a
@@ -64,7 +64,7 @@ const Footer = () => {
           <h3 className=" mb-10 tracking-widest ">HAVE QUESTIONS?</h3>
           <ul>
             <li className="text-zinc-400">
-              203 Fake St. Mountain View, San Francisco, California, USA
+              203 Olive St. San Diego, California, USA
             </li>
             <li>+2 392 3929 210</li>
             <li>info@yourdomain.com</li>

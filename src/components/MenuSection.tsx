@@ -8,10 +8,12 @@ const MenuSection = () => {
           <span className="text-red-800">VISIT</span> <br></br> OUR MENU
         </h3>
         <p className="text-zinc-500">
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of the Semantics, a large
-          language ocean.
+          Curabitur non aliquam risus. Etiam ut ligula placerat orci imperdiet
+          mollis. Donec et leo neque. Proin vitae velit mattis, luctus diam et,
+          efficitur ante. Sed ac lectus id velit pulvinar fringilla lobortis id
+          massa. In eu viverra massa, vitae gravida elit. Nunc et nisl non dui
+          mollis finibus. Cras vel velit leo. Cras ultrices erat eu dui
+          vulputate hendrerit.
         </p>
         <button className="text-red-800 p-4 border border-primary hover:text-white hover:bg-red-800 ease-in duration-200">
           View Full Menu

@@ -20,10 +20,8 @@ const InfoTiles = () => {
             className="w-8 h-8"
           />
           <div>
-            <h1 className="text-lg">(760) 456 7890</h1>
-            <p className="text-slate-400">
-              Call to order for pickup or ask any questions
-            </p>
+            <h1 className="text-lg">(760) 907 2719</h1>
+            <p className="text-slate-400">Call to order or make appointment</p>
           </div>
         </div>
         <div data-aos="fade-up" className="flex-1 justify-center flex gap-4">
@@ -34,8 +32,8 @@ const InfoTiles = () => {
             className="w-8 h-8"
           />
           <div>
-            <h1 className="text-lg">879 Washington St</h1>
-            <p className="text-slate-400">San Francisco, California, USA</p>
+            <h1 className="text-lg">830 Emerald St</h1>
+            <p className="text-slate-400">San Diego, California, USA</p>
           </div>
         </div>
         <div data-aos="fade-up" className="flex-1 justify-center flex gap-4">
@@ -47,7 +45,7 @@ const InfoTiles = () => {
           />
           <div>
             <h1 className="text-lg">Open Everyday</h1>
-            <p className="text-slate-400">8:00am - 4:00pm</p>
+            <p className="text-slate-400">4:00pm - 10:00pm</p>
           </div>
         </div>
       </div>
