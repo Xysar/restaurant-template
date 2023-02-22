@@ -40,7 +40,7 @@ const Navbar = () => {
             <li>
               <button className="tracking-widest">
                 <img
-                  src="src/assets/shopping-cart.png"
+                  src="assets/shopping-cart.png"
                   alt="Shopping Cart"
                   className="w-8 h-8"
                 />
@@ -55,7 +55,7 @@ const Navbar = () => {
               className="flex items-center "
             >
               <img
-                src="src/assets/bars-white.png"
+                src="assets/bars-white.png"
                 alt="asd"
                 className="w-14 h-14 p-2 cursor-pointer"
               />
@@ -99,7 +99,7 @@ const Navbar = () => {
             <button>
               <img
                 className="w-6 h-6"
-                src="src/assets/shopping-cart.png"
+                src="assets/shopping-cart.png"
                 alt="Shopping Cart"
               />
             </button>

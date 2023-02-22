@@ -15,7 +15,7 @@ const InfoTiles = () => {
       <div className="flex md:flex-row flex-col md:justify-center gap-8 items-start text-slate-100 py-16">
         <div data-aos="fade-up" className="flex-1 flex justify-center gap-4 ">
           <img
-            src="src/assets/phone-call.png"
+            src="assets/phone-call.png"
             alt="Phone Information"
             className="w-8 h-8"
           />
@@ -26,11 +26,7 @@ const InfoTiles = () => {
         </div>
         <div data-aos="fade-up" className="flex-1 justify-center flex gap-4">
           {" "}
-          <img
-            src="src/assets/compass.png"
-            alt="directions"
-            className="w-8 h-8"
-          />
+          <img src="assets/compass.png" alt="directions" className="w-8 h-8" />
           <div>
             <h1 className="text-lg">830 Emerald St</h1>
             <p className="text-slate-400">San Diego, California, USA</p>
@@ -39,7 +35,7 @@ const InfoTiles = () => {
         <div data-aos="fade-up" className="flex-1 justify-center flex gap-4">
           {" "}
           <img
-            src="src/assets/clock.png"
+            src="assets/clock.png"
             alt="Times we are Open"
             className="w-8 h-8"
           />

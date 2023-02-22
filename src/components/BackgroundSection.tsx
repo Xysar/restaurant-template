@@ -6,7 +6,7 @@ const BackgroundSection = () => {
       <div className="md:w-[50%]">
         <img
           className="h-[400px] md:h-[650px] w-full object-cover object-center "
-          src="src/assets/pexels-rene-asmussen-1581384.jpg"
+          src="assets/pexels-rene-asmussen-1581384.jpg"
           alt="Coffee shop"
         />
       </div>

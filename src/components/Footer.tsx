@@ -17,7 +17,7 @@ const Footer = () => {
             >
               <img
                 className="w-8 h-8"
-                src="src/assets/facebook-symbol.png"
+                src="assets/facebook-symbol.png"
                 alt="facebook"
               />
             </a>
@@ -25,11 +25,7 @@ const Footer = () => {
               href="#"
               className="rounded-full w-14 h-14 bg-zinc-800 hover:bg-black flex justify-center items-center flex-shrink-0"
             >
-              <img
-                className="w-8 h-8"
-                src="src/assets/twitter.png"
-                alt="twitter"
-              />
+              <img className="w-8 h-8" src="assets/twitter.png" alt="twitter" />
             </a>
             <a
               href="#"
@@ -37,7 +33,7 @@ const Footer = () => {
             >
               <img
                 className="w-8 h-8"
-                src="src/assets/instagram.png"
+                src="assets/instagram.png"
                 alt="instagram"
               />
             </a>

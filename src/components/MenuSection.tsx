@@ -22,22 +22,22 @@ const MenuSection = () => {
       <div className=" grid md:grid-cols-2 grid-cols-1 md:w-[325px] md:h-[400px] lg:w-[475px] gap-4 lg:gap-y-8 ">
         <img
           className=" lg:-translate-y-3  w-full h-24 md:h-full md:w-full object-cover overflow-hidden bg-slate-400"
-          src="src/assets/pexels-jonathan-borba-2983101.jpg"
+          src="assets/pexels-jonathan-borba-2983101.jpg"
           alt=""
         />
         <img
           className="lg:translate-y-3  w-full h-24 md:h-full md:w-full  object-cover overflow-hidden bg-slate-400"
-          src="src/assets/pexels-narda-yescas-1566837.jpg"
+          src="assets/pexels-narda-yescas-1566837.jpg"
           alt=""
         />
         <img
           className=" lg:-translate-y-3 w-full h-24 md:h-full md:w-full  object-cover overflow-hidden bg-slate-400"
-          src="src/assets/pexels-oleksandr-pidvalnyi-3147493.jpg"
+          src="assets/pexels-oleksandr-pidvalnyi-3147493.jpg"
           alt=""
         />
         <img
           className=" lg:translate-y-3 w-full h-24 md:h-full md:w-full  object-cover  overflow-hidden bg-slate-400"
-          src="src/assets/pexels-senuscape-2313686.jpg"
+          src="assets/pexels-senuscape-2313686.jpg"
           alt=""
         />
       </div>
