@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="z-[1] font-open-sans m-0 relative h-screen w-full ">
       {" "}
       <img
-        src="src/assets/pexels-pixabay-260922.jpg"
+        src="assets/pexels-pixabay-260922.jpg"
         alt=""
         className=" z-[-1] absolute object-cover w-full h-full brightness-75"
       />
