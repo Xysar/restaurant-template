@@ -5,7 +5,11 @@ module.exports = {
     fontFamily: {
       "open-sans": ["Open-Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#5c0000",
+      },
+    },
   },
   plugins: [],
 };

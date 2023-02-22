@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="relative font-open-sans md:bg-transparent bg-black flex  text-slate-200 justify-center  py-6 px-10 md:border-b border-slate-100/25 whitespace-nowrap z-20">
         <div className="w-[1100px] items-center justify-between  flex">
           <h1 className="text-center text-3xl leading-6 ">
-            Coffee <br></br>
+            Restaurant <br></br>
             <span className="text-lg">Company</span>
           </h1>
           <ul className="  gap-10 hidden md:flex items-center">

@@ -71,8 +71,22 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center pb-32">
+      <div className="flex justify-center pb-20">
         <p>2023 | Made by Cesar Camacho</p>
+      </div>
+      <div className="flex items-center gap-2 flex-col p-4">
+        <a href="https://www.flaticon.com/free-icons/phone" title="phone icons">
+          Phone icons created by Prosymbols - Flaticon
+        </a>
+        <a
+          href="https://www.flaticon.com/free-icons/compass"
+          title="compass icons"
+        >
+          Compass icons created by Creative Stall Premium - Flaticon
+        </a>
+        <a href="https://www.flaticon.com/free-icons/clock" title="clock icons">
+          Clock icons created by dmitri13 - Flaticon
+        </a>
       </div>
     </div>
   );

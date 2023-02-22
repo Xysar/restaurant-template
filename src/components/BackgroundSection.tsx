@@ -6,14 +6,15 @@ const BackgroundSection = () => {
       <div className="md:w-[50%]">
         <img
           className="h-[400px] md:h-[650px] w-full object-cover object-center "
-          src="src/assets/bgsectionimage.jpg"
+          src="src/assets/pexels-rene-asmussen-1581384.jpg"
           alt="Coffee shop"
         />
       </div>
       <div className="bg-zinc-900  md:w-[50%] flex items-center justify-start">
         <div className="md:ml-[-90px] md:min-w-[400px] md:max-w-[90%]  p-10 pb-16 bg-black bg-opacity-60 text-white">
           <h3 className="text-3xl mb-8">
-            <span className=" text-amber-800">Discover</span> <br></br>Our Story
+            <span className=" text-red-800  ">Established</span> <br></br> in
+            San Diego
           </h3>
           <p className="text-md text-zinc-500">
             On her way she met a copy. The copy warned the Little Blind Text,

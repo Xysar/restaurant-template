@@ -49,7 +49,7 @@ const BookTable = () => {
           />
           <button
             type="submit"
-            className="ease-in duration-100 bg-amber-900 col-span-3 hover:bg-black border-amber-900 border "
+            className="ease-in duration-100 bg-red-800 col-span-3 hover:bg-black border-primary border "
           >
             Appointment
           </button>
